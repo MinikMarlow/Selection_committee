@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Регистрация</title>
+<link rel="stylesheet" href="regist.css">
+<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+<link rel="manifest" href="favicons/site.webmanifest">
+<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#00aeff">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body >
+
+<nav>
+
+    <ul>
+        <li>
+            <a href="index.html">&larr;Назад</a>
+        </li>
+        <li>
+            <a href="regist.html">Пример подачи заявлений</a>
+        </li>
+        <li>
+            <a href="nabor.html">Конкурсные списки</a>
+        </li>
+        <li>
+            <a href="reiting.php">Списки поступающих</a>
+        </li>
+        <li>
+            <a href="info.html">Квалификация</a>
+        </li>
+    </ul>
+</nav>
+
+        <form class="form">
+
+        <!-- Hidden Required Fields -->
+        <input type="hidden" name="project_name" value="abityrient">
+        <input type="hidden" name="admin_email" value="minikon2017@yandex.ru">
+        <input type="hidden" name="form_subject" value="footer form">
+        <!-- END Hidden Required Fields -->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+    <input class="type-1" name="Name"  type="text" class="text" value="ФИО" onfocus="this.value = '';"
+    onblur="if (this.value == '') {this.value = 'ФИО';}">
+<br>
+    <input class="type-1" type="text" name="Город" value="Город" onfocus="this.value = '';"
+    onblur="if (this.value == '') {this.value = 'Город';}">
+<br>
+    <input class="type-1" name="e-mail"  type="text" class="text" value="Email" onfocus="this.value = '';"
+    onblur="if (this.value == '') {this.value = 'Email';}">
+<br>  
+    <textarea class="type-1" name="сообщение"  value="Message" onfocus="this.value = '';" 
+    onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+<br>
+	<p>Документы для отправки находятся <a href="documentazia.html">здесь</a></p>
+ <div class="input-file-row">
+		<label class="input-file">
+		   	<input type="file" name="file[]" multiple>		
+		   	<span></span>
+ 		</label>
+		<div class="input-file-list"></div>  
+	</div>  
+	 <div class="input-file-row">
+		<label class="input-file">
+		   	<input type="file" name="file[]" multiple>		
+		   	<span></span>
+ 		</label>
+		<div class="input-file-list"></div>  
+	</div>  
+
+ <div class="input-file-row">
+		<label class="input-file">
+		   	<input type="file" name="file[]" multiple>		
+		   	<span></span>
+ 		</label>
+		<div class="input-file-list"></div>  
+	</div>  
+
+
+
+    <input style="background-color:;" style="color: white;" type="submit" name="SEND">
+
+</form>
+
+   <!-- 
+<input name="e-mail"  type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value= 'Email';}">
+<br>
+<textarea name="сообщение"  value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value= 'Message';}">Message</textarea>
+<br>
+
+
+
+            <h1 class="form_tittle">Отправка анкеты на почту</h1>
+            <div class="form_item">
+                <label for="formName" class="form_label">ФИО*: </label>
+                <input name="ФИО" id="formName"  placeholder="" type="text" name="name" class="form_input _req">
+            </div>
+            <div class="form_item">
+                <label for="formEmail" class="form_label">E-mail*:</label>
+                <input name="Email" id="formEmail" placeholder=" yandex@mail.ru" type="text"
+                class="form_input _req _email">
+            </div>
+            <div class="form_item">
+                <label for="formNumber" class="form_label">Телефон*:</label>
+                <input id="formNumber" placeholder=" +7(845)555-1212 " type="text" name="1">
+            </div>
+            <div class="form_item">
+                <label for="formhand" class="form_label">Город*:</label>
+                <input id="formhand" placeholder=" Москва" type="text" name="email" class="form_input">
+            </div>
+            <div class="form_item">
+                <div class="form_label" style="color: rgb(168, 168, 168);">Шаблоны документов необходимые для отправки <a href="nabor.html">тут</a></div>
+                <div class="options">
+                <div class="options_item">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="form_item">
+            <label for="formMessage" class="form_label">Сообщение*:</label>
+            <textarea name="message" id="formMessage" value="message" class="form_input"></textarea>
+        </div>
+   <div class="form_item">
+        <div class="form_label">Прикрепить файлы</div>
+        <div class="file">
+            <div class="file_item">
+                <input  id=formImage accept=".jpg, .png," type="file" name="image" class="file_input">
+                <div class="file_button">Выбрать</div>
+            </div>
+            <div id="formPreview" class="file_preview">    
+            </div>
+        </div>
+        <div class="form_item">
+            <div class="chekbox">
+                </div>
+            </div>
+        <button type="submit" class="form_button">Отправить</button>
+        </form>
+    </div>
+</div>
+-->
+<script src="js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+
+<script>
+var dt = new DataTransfer();
+
+$('.input-file input[type=file]').on('change', function(){
+	let $files_list = $(this).closest('.input-file').next();
+	$files_list.empty();
+
+	for(var i = 0; i < this.files.length; i++){
+		let new_file_input = '<div class="input-file-list-item">' +
+			'<span class="input-file-list-name">' + this.files.item(i).name + '</span>' +
+			'<a href="#" onclick="removeFilesItem(this); return false;" class="input-file-list-remove">x</a>' +
+			'</div>';
+		$files_list.append(new_file_input);
+		dt.items.add(this.files.item(i));
+	};
+	this.files = dt.files;
+});
+
+function removeFilesItem(target){
+	let name = $(target).prev().text();
+	let input = $(target).closest('.input-file-row').find('input[type=file]');	
+	$(target).closest('.input-file-list-item').remove();	
+	for(let i = 0; i < dt.items.length; i++){
+		if(name === dt.items[i].getAsFile().name){
+			dt.items.remove(i);
+		}
+	}
+	input[0].files = dt.files;  
+}
+</script>
+
+
+<br>
+<br>
+<br>
+
+</body>
+</html>
+

@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    
+    animation-name: Appearance;
+    animation-duration: 0.5s;
+    animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+}
+input[type=text] {
+  padding:10px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+textarea {
+  width:100%;
+  resize: vertical;
+  padding:15px;
+  border-radius:15px;
+  border:0;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+  height:150px;
+}
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+.form {
+
+
+		margin:0 auto;
+         width: 300px; # Ширина 300 пикселей
+         padding: 25px; #  Внутренний отступ 32 пикселей  
+         border-radius: 10px; # Закруглённую рамку или скруглить углы элемента. 
+         box-shadow: 0 4px 16px #ccc; # Тень элемента. 0 - смещение Х, 4 - смещение Y, 16 - степень размытия, #ccc - цвет.
+         font-family: sans-serif; # Шрифт. 
+         letter-spacing: 1px; # Расстояние между буквами
+ }
+ 
+ .form_button {
+         padding: 10px 20px;
+         border: none; # Без границы блока.
+         border-radius: 5px; # Радиус закругления
+         font-family: sans-serif;
+         letter-spacing: 1px;
+         font-size: 16xp;
+         color :#fff ; # Цвет текста
+         background-color: red; # Цвет фона
+         outline: none; #  Внешней границы элемента 
+         cursor: pointer; # Тип курсора при наведение
+         transition: 0.3s; #  transition позволяет делать плавные переходы между двумя значениями какого-либо CSS свойства
+ }
+input {
+  display:block;
+  width:100%;
+  margin:10px 0;
+  padding:10px;
+}
+.type-1 {
+  border-radius:10px;
+  border: 1px solid #eee;
+  transition: .3s border-color;
+}
+.type-1:hover {
+  border: 1px solid #aaa;
+}
+
+button {
+  /* remove default behavior */
+  appearance:none;
+  -webkit-appearance:none;
+  /* usual styles */
+  padding:10px;
+  border:none;
+  background-color:#3F51B5;
+  color:#fff;
+  font-weight:600;
+  border-radius:5px;
+  width:100%;
+}

@@ -1,0 +1,32 @@
+td {
+
+    border: 1px solid grey;
+    border-collapse: collapse;
+
+ 
+ }
+
+ th{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    background-color: #007bff;
+    color: white;
+ }
+
+ table {
+width: 100%;
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 14px;
+border-collapse: collapse;
+text-align: center;
+
+
+      animation-name: Appearance;
+      animation-duration: 0.5s;
+      animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+ }
+
+ p{
+color: gray;
+ }
+
