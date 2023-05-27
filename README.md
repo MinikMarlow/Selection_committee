@@ -6,7 +6,9 @@ This README is also the first time I am writing it. This program I wrote for 2 m
 
 What can I do on this site? This site knows how to add/remove new applicants, and also allows you to send questionnaires to the mail. In addition, there is some information about some organization.
 
-This site was developed by me for my dissertation. (RU) Привет всем, сегодня я выкладываю свой первый проект который называется "Приемная комиссия"
+This site was developed by me for my dissertation. 
+
+(RU) Привет всем, сегодня я выкладываю свой первый проект который называется "Приемная комиссия"
 
 Данный README пишу тоже первый раз. Данную программу я писала 2 месяца, с учетом того что репозитори "phpmailler" был взят. Присутствуют такие элементы как : PHP,MYSQL,CSS,HTML,JS.
 
